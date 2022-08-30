@@ -1,5 +1,5 @@
 async function main() {
-  const HelloWorld = await ethers.getContractFactory("L1L2");
+  const HelloWorld = await ethers.getContractFactory("L1ReceiveMsgFromL2");
 
   // Start deployment, returning a promise that resolves to a contract object
   const hello_world = await HelloWorld.deploy(

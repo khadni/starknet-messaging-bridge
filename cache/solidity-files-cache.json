@@ -591,45 +591,6 @@
         "IERC165"
       ]
     },
-    "/Users/karim/Documents/WEB3/starknet-messaging-bridge/contracts/L1/L1_to_L2.sol": {
-      "lastModificationDate": 1661777067600,
-      "contentHash": "2526e6ea561d625fbb1d97f479d1b672",
-      "sourceName": "contracts/L1/L1_to_L2.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "./interfaces/IStarknetCore.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "L1_to_L2"
-      ]
-    },
     "/Users/karim/Documents/WEB3/starknet-messaging-bridge/contracts/L1/Evaluator.sol": {
       "lastModificationDate": 1661668353412,
       "contentHash": "7c2750dcb125f04f81b217383a5b8095",
@@ -741,6 +702,43 @@
       ],
       "artifacts": [
         "L1L2"
+      ]
+    },
+    "/Users/karim/Documents/WEB3/starknet-messaging-bridge/contracts/L1/L1ReceiveMsgFromL2.sol": {
+      "lastModificationDate": 1661857276077,
+      "contentHash": "000e463ff416549f1d5edf07c29509c8",
+      "sourceName": "contracts/L1/L1ReceiveMsgFromL2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IStarknetCore.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "L1ReceiveMsgFromL2"
       ]
     }
   }
